@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
-import ScrollTracker from './components/ScrollTracker';
+import RollingMenu from './components/RollingMenu';
 
 interface AppProps {}
 
@@ -9,7 +9,7 @@ const App: React.FC<AppProps> = ({}) => {
   return (
     <SafeAreaProvider>
       <View style={styles.container}>
-        <ScrollTracker />
+        <RollingMenu />
       </View>
     </SafeAreaProvider>
   );
